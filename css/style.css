@@ -1,0 +1,130 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+html {
+	overflow-y: scroll;
+}
+
+p {
+	line-height: 2.5rem;
+	clear:both;
+}
+
+.signature {
+	position: relative;
+	text-align: center;
+	margin: 50px;
+}
+
+.btn-link {
+	padding: 0;
+	white-space: pre;
+}
+
+.btn-link:active:focus{
+    outline:0;
+	text-decoration: none;
+}
+
+.btn-link:focus{
+    outline:0;
+	text-decoration: none;
+}
+
+button.btn.collapsed:before
+{
+    content:'Show Timeline' ;
+    display:block;
+    width:auto;
+}
+button.btn:before
+{
+    content:'Hide Timeline' ;
+    display:block;
+    width:auto;
+}
+
+.footer {
+    position: relative;
+    bottom: 30px;
+	text-align: center;
+    font-family: "Effra", Helvetica, sans-serif;
+    font-size: 1.1rem;
+	opacity: 0.5;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*----- Social Links -----*/
+.social-nav {
+    padding: 0;
+    list-style: none;
+    margin: -10px 0 0 -10px;
+	position: relative;
+	clear:both;
+}
+.social-nav li {
+    float: left;
+    margin: 10px 0 0 10px;
+    list-style: none;
+}
+.social-nav a {
+    display: inline-block;
+    float: left;
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 42px;
+    background: #000;
+    position: relative;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.social-nav a {
+    overflow: hidden;
+    font-size: 26px;
+    border-radius: 4px;
+}
+.social-nav a:hover {
+    background: #fff;
+}
+.social-nav .facebook {
+    background: #3B579D;
+}
+.social-nav .facebook:hover {
+    color: #3B579D;
+}
+.social-nav .linkedin {
+    background: #007BB6;
+}
+.social-nav .linkedin:hover {
+    color: #007BB6;
+}
+.social-nav .pinterest {
+    background: #CB2026;
+}
+.social-nav .pinterest:hover {
+    color: #CB2026;
+}
+
+.social-nav .instagram {
+    background: #517fa4;
+}
+.social-nav .instagram:hover {
+    color: #517fa4;
+}
+
+.social-nav .github {
+    background: #000;
+}
+.social-nav .github:hover {
+    color: #000;
+}
